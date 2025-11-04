@@ -546,7 +546,7 @@
     "y = df[target]\n",
     "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)\n",
     "\n",
-    "print('Train shape:', X_train.shape, 'Test shape:', X_test.shape)"
+    "print('Train shape:', X_train.shape, 'Test shape:', X_test.shape)\n"
    ]
   },
   {
@@ -946,19 +946,13 @@
     "\n",
     "- **Model pilihan (contoh):** RidgeCV sering memberikan trade-off baik antara bias & variance.\n",
     "- **Fitur penting (umum):** `smoker`, `age`, dan `bmi` biasanya punya pengaruh besar pada `charges`.\n",
-    "- **Langkah lanjutan:** coba transformasi `charges` (log), interaksi (smoker*bmi), model non-linear (Random Forest / Gradient Boosting), atau gunakan SHAP untuk interpretasi yang lebih kaya.\n",
-    "\n",
-    "Simpan notebook ini dan jalankan sel-selnya di Jupyter. Jika mau, saya bisa:\n",
-    "- Menjalankan notebook dan menyimpan output aktual (grafik & file model) untuk kamu.\n",
-    "- Menyesuaikan isi notebook agar sesuai format spesifik Coursera (jawaban teks di markdown cells).\n",
-    "\n",
-    "Katakan jika mau saya jalankan seluruh sel sekarang dan unggah hasil `.ipynb` dengan output terisi.\n"
+    "- **Langkah lanjutan:** coba transformasi `charges` (log), interaksi (smoker*bmi), model non-linear (Random Forest / Gradient Boosting), atau gunakan SHAP untuk interpretasi yang lebih kaya.\n"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "4d16e2c5-3e8c-45bb-958c-cfed875adfea",
+   "id": "e2a02836-cb85-432e-a7db-f4ab76fb4a88",
    "metadata": {},
    "outputs": [],
    "source": []
